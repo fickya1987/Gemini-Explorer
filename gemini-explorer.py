@@ -4,7 +4,7 @@ from vertexai.preview import generative_models
 from vertexai.preview.generative_models import GenerativeModel, Part, Content, ChatSession
 
 # Initialize the project id to connect with your google cloud account
-project = "gemini-explorer-431005"
+project = "ficky-vertexai"
 vertexai.init(project = project)
 
 # Initialize the configurations for the LLM model
