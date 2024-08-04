@@ -54,6 +54,9 @@ This project serves as a practical introduction to the fusion of large language 
 
 - Personalize the LLM responses to create a seamless and interactive user interface.
 
+![Gemini Explorer Chat Interface with multiturn conversation](https://github.com/user-attachments/assets/3d08eca7-7101-48fd-9b39-508f3f081fbf)
+
+
 ## Issues Faced
 
 - ⚠️ **Issue 403: Permission Denied Error**: Check if you have provided project_id rather than project name in your code or if the service account is activated.
