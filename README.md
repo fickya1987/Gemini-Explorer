@@ -29,14 +29,18 @@ This project serves as a practical introduction to the fusion of large language 
 - Sign in using your Google Account credentials.
 - Select an existing project or Create a new project (like "gemini-explorer")
 - Set default compute region and zone (Optional Step)
-
+- In your Google Cloud account, go to service accounts and create a service account for the project. Then, click on the account and create a new key in JSON format. Download this key and place it in your project folder.
+- Then, go to IAM and create add "AI Platform Admin" as a role for the project.
+- In the Command Line of your editor, type the following command to ensure google cloud authentication,
+  ```
+  set GOOGLE_APPLICATION_CREDENTIALS=your-key.json
 
 ## Task 3: ☁️ Setting up Google Gemini
 
 - Install requirements.txt using the command
   ```
   pip install -r requirements.txt
-- The requirements.txt instals the following frameworks/libraries
+- The requirements.txt installs the following frameworks/libraries
     * streamlit
     * google-cloud-aiplatform
     * vertexai
